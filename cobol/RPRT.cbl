@@ -6,9 +6,9 @@
                       IDMS-RECORDS MANUAL.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-        01 EMPLOYEE PIC X.
-        01 NAME-INDEX PIC x.
+        01 ABC PIC X.
+        01 XYZ PIC x.
        PROCEDURE DIVISION.
-           OBTAIN FIRST EMPLOYEE WITHIN NAME-INDEX.
-           OBTAIN FIRST EMPLOYEE 
+           DISCONNECT ABC FROM XYZ.
+           DISCONNECT ABC
            EXIT.
