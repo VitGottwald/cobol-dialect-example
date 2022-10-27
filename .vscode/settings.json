@@ -1,0 +1,5 @@
+{
+	"cobol-lsp.dialects": [
+		"IDMS"
+	]
+}
